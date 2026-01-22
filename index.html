@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<head>
+    <title>Coffee shop | R.sathv</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Coffee<span>.</span></a>
+            <ul class="menu-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <section class="hero-section" id="home">
+        <div class="content">
+            <h1>Start Your Day With Fresh Coffee</h1>
+            <p>
+                Where every cup is brewed with care and passion. We serve fresh, rich coffee made from quality beans. Enjoy warm service and peaceful vibes with every visit. Here, every coffee moment feels special. ☕
+            </p>
+                <button class="order-btn" onclick="orderNow()">Order Now</button>
+                <button class="login-btn" onclick="goToLogin()">Login</button>
+        </div>
+    </section>
+    
+        </div>
+    </section>
+
+<!-- PRODUCTS -->
+<section class="section" id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+        <div class="product-card">
+            <img src="espresso.jpg" alt="Espresso">
+            <h3>Espresso</h3>
+            <p>Strong & rich coffee <br>shot.</p>
+            <span>Rs. 350</span>
+            <button onclick="addToCart('Espresso')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Cappuccino.webp" alt="Cappuccino">
+            <h3>Cappuccino</h3>
+            <p>Perfect balance of milk & coffee.</p>
+            <span>Rs. 450</span>
+            <button onclick="addToCart('Cappuccino')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Latte.webp" alt="Latte">
+            <h3>Latte</h3>
+            <p>Smooth, creamy coffee delight.</p>
+            <span>Rs. 500</span>
+            <button onclick="addToCart('Latte')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Mocha.webp" alt="Mocha">
+            <h3>Mocha</h3>
+            <p>Coffee with chocolate <br>flavor.</p>
+            <span>Rs. 550</span>
+            <button onclick="addToCart('Mocha')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="americano.webp" alt="Americano">
+            <h3>Americano</h3>
+            <p>Smooth coffee with hot water.</p>
+            <span>Rs. 400</span>
+            <button onclick="addToCart('Americano')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Flat White.avif" alt="Flat White">
+            <h3>Flat White</h3>
+            <p>Rich espresso with silky milk.</p>
+            <span>Rs. 480</span>
+            <button onclick="addToCart('Flat White')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Macchiato.jpg" alt="Macchiato">
+            <h3>Macchiato</h3>
+            <p>Espresso topped with milk foam.</p>
+            <span>Rs. 420</span>
+            <button onclick="addToCart('Macchiato')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Cold Brew.jpg" alt="Cold Brew">
+            <h3>Cold Brew</h3>
+            <p>Slow brewed, extra smooth coffee.</p>
+            <span>Rs. 520</span>
+            <button onclick="addToCart('Cold Brew')">Add to Cart</button>
+        </div>
+
+        <div class="product-card">
+            <img src="Vanilla Latte.jpg" alt="Vanilla Latte">
+            <h3>Vanilla Latte</h3>
+            <p>Latte with sweet vanilla flavor.</p>
+            <span>Rs. 560</span>
+            <button onclick="addToCart('Vanilla Latte')">Add to Cart</button>
+            </div>
+
+        <div class="product-card">
+            <img src="Caramel Coffee.jpg" alt="Caramel Coffee">
+             <h3>Caramel Coffee</h3>
+             <p>Rich coffee with caramel touch.</p>
+            <span>Rs. 580</span>
+            <button onclick="addToCart('Caramel Coffee')">Add to Cart</button>
+        </div>
+
+     </div>
+
+<section class="more-items-section">
+    <h3>More Items</h3>
+    <p>Explore our full coffee menu!</p>
+    <button onclick="alert('Redirect to full menu page')">See More</button>
+</section>
+
+
+</section>
+
+
+<!-- TESTIMONIALS -->
+<section class="section" id="testimonials">
+    <h2>Testimonials</h2>
+
+    <div class="testimonial-container">
+        <div class="testimonial active">
+            <img src="testi.jpg" alt="Arun">
+            <p>"Best coffee I’ve ever tasted. Calm place, perfect vibe!"</p>
+            <h4>- Arun</h4>
+        </div>
+
+        <div class="testimonial">
+            <img src="keerthi testi.avif" alt="Keerthi">
+            <p>"Amazing service and fresh coffee every time."</p>
+            <h4>- Keerthi</h4>
+        </div>
+
+        <div class="testimonial">
+            <img src="tesi suresh.jpg" alt="Suresh">
+            <p>"My favorite spot to relax and enjoy coffee."</p>
+            <h4>- Suresh</h4>
+        </div>
+    </div>
+
+    <div class="testimonial-buttons">
+        <button onclick="prevTestimonial()">❮</button>
+        <button onclick="nextTestimonial()">❯</button>
+    </div>
+</section>
+
+
+<!-- ABOUT US -->
+<section class="section" id="about">
+    <h2>About Us</h2>
+
+    <div class="about-container">
+        <div class="about-text">
+            <p>
+                We are passionate about serving fresh and high-quality coffee every day.
+                Our coffee shop is a place where people relax, connect, and enjoy peaceful moments.
+                Each cup is brewed with care, love, and the finest beans.
+            </p>
+            <button onclick="showMore()">Read More</button>
+        </div>
+    </div>
+</section>
+
+
+<!-- GALLERY -->
+<section class="section" id="gallery">
+    <h2>Gallery</h2>
+
+    <div class="gallery-container">
+        <img src="cake gallery.jpg" alt="Dessert 1" onclick="openImage(this)">
+        <img src="bakery gallery.webp" alt="Snacks/bakery 2" onclick="openImage(this)">
+        <img src="drinks gallery.avif" alt="Special drinks" onclick="openImage(this)">
+        <img src="fun gallery.webp" alt="COFFEE SHOP VIBES 4" onclick="openImage(this)">
+        <img src="events.jpg" alt="EVENTS / MOMENTS 5" onclick="openImage(this)">
+        <img src="premium.avif" alt="SPECIAL / PREMIUM CATEGORY  6" onclick="openImage(this)">
+        <img src="Caramel Coffee.jpg" alt="caramel 5" onclick="openImage(this)">
+        <img src="Cappuccino.webp" alt="Cappuccino 5" onclick="openImage(this)">
+    </div>
+    
+    <!-- Image Preview Modal -->
+    <div id="imgModal" class="modal">
+        <span class="close" onclick="closeImage()">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+    <h2>Contact Us</h2>
+
+    <div class="contact-container">
+        <form id="contactForm">
+
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <!-- Social Links Above Button -->
+            <div class="social-links">
+                <a href="https://github.com/yourusername" target="_blank">
+                    <img src="icons/github.png" alt="GitHub" class="social-icon">
+                </a>
+                <a href="https://instagram.com/yourusername" target="_blank">
+                    <img src="icons/instagram.png" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://facebook.com/yourusername" target="_blank">
+                    <img src="icons/facebook.png" alt="Facebook" class="social-icon">
+                </a>
+            </div>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="footer-content">
+        <h3>Coffee Shop</h3>
+        <p>Your daily dose of fresh coffee ☕</p>
+
+        <div class="footer-social">
+            <a href="https://github.com/yourusername" target="_blank">
+                <img src="github logo.png" alt="GitHub" class="footer-icon">
+            </a>
+            <a href="https://instagram.com/yourusername" target="_blank">
+                <img src="insta logo.avif" alt="Instagram" class="footer-icon">
+            </a>
+            <a href="https://facebook.com/yourusername" target="_blank">
+                <img src="facebook logo.webp" alt="Facebook" class="footer-icon">
+            </a>
+        </div>
+
+        <p class="copyright">
+            &copy; 2026 Coffee Shop | Designed by R.Sathv
+        </p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
