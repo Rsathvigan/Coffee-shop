@@ -60,8 +60,8 @@ This is a **frontend-only project** created for learning, practice, and portfoli
 
 ## 👥 Team Members
 
-- **R. Sathvigan** – Frontend Developer & Designer
-- **P.Dhilukshan** – UI/UX Designer & JavaScript Developer
+- **R.Sathvigan**(ITBNM-2313-0076) – Frontend Developer & Designer
+- **P.Dhilukshan**(ITBNM-2313-0014) – UI/UX Designer & JavaScript Developer
 
 ## 📁 Project Structure
 coffee-shop-website/
