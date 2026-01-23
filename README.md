@@ -55,7 +55,8 @@ This is a **frontend-only project** created for learning, practice, and portfoli
 > ❌ No database  
 > ❌ No server-side code  
 ## 📸 Homepage Screenshot
-(home page.PNG)
+![Home](homepage.png)
+
 ---
 
 ## 👥 Team Members
