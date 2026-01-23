@@ -54,8 +54,10 @@ This is a **frontend-only project** created for learning, practice, and portfoli
 > ❌ No backend  
 > ❌ No database  
 > ❌ No server-side code  
-
+## 📸 Homepage Screenshot
+(home page.PNG)
 ---
+
 ## 👥 Team Members
 
 - **R. Sathvigan** – Frontend Developer & Designer
