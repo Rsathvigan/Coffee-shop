@@ -3,7 +3,8 @@
 A modern and responsive **Coffee Shop Website** built using **HTML, CSS, and JavaScript**.  
 This is a **frontend-only project** created for learning, practice, and portfolio showcase.
 
----
+---<img width="1346" height="632" alt="home" src="https://github.com/user-attachments/assets/8c0c5041-1f52-4381-bac9-eb02e665a1c5" />
+
 
 ## 🌟 Features
 
@@ -54,9 +55,6 @@ This is a **frontend-only project** created for learning, practice, and portfoli
 > ❌ No backend  
 > ❌ No database  
 > ❌ No server-side code  
-## 📸 Homepage Screenshot
-![Home](home.png)
-
 
 ---
 
