@@ -52,9 +52,7 @@ This is a **frontend-only project** created for learning, practice, and portfoli
 - **Google Fonts**
 - **Font Awesome**
 
-> ❌ No backend  
 > ❌ No database  
-> ❌ No server-side code  
 
 ---
 
