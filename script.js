@@ -63,17 +63,23 @@ function toggleHeart(event){
 }
 const contactForm = document.getElementById("contactForm");
 
-contactForm.addEventListener("submit", function(e){
-    e.preventDefault(); // prevent page reload
+contactForm.addEventListener("submit", async function(e){
+    e.preventDefault();
 
     const name = document.getElementById("name").value;
     const email = document.getElementById("email").value;
     const message = document.getElementById("message").value;
 
-    if(name && email && message){
-        alert(`Thank you ${name}! Your message has been sent successfully ☕`);
-        contactForm.reset(); // clear form
-    } else {
-        alert("Please fill all fields!");
-    }
+    const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({ name, email, message })
+    });
+
+    const data = await response.json();
+    alert(data.message);
+
+    contactForm.reset();
 });
