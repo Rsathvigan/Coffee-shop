@@ -4,9 +4,10 @@
 This is a static Coffee Shop web application built using HTML, CSS, and JavaScript.
 
 ## Docker Setup Instructions
+-<img width="373" height="183" alt="Screenshot 2026-03-01 224143" src="https://github.com/user-attachments/assets/2c999513-0432-404a-a426-7d532441e8f7" />
 
 ### Prerequisites
-- Docker installed
+ Docker installed
 - Docker Compose installed
 
 ### Build Docker Image
