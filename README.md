@@ -6,8 +6,14 @@
 
 ## 👥 Group Members
 
-- **ITBNM-2313-0076** – R. Sathvigan  
-- **ITBNM-2313-0076** – P. Dhilukshan  
+---
+
+## 👥 Work Distribution
+
+| Team Member | Responsibilities |
+|-------------|------------------|
+| R. Sathvigan | Frontend Development, Dockerfile Creation, UI Implementation, Container Testing |
+| P. Dhilukshan | Login System Development, Docker Compose Setup, Documentation, Deployment Testing |
 
 ---
 
@@ -43,11 +49,25 @@ The project has been containerized using **Docker** and deployed using an **Ngin
 ---
 
 ## 📂 Project Structure
-<img width="605" height="511" alt="3" src="https://github.com/user-attachments/assets/6425b0c2-6cf1-4fce-840f-8b5e56991fd8" />
-
-
+Coffee-shop/
+│
+├── index.html
+├── login.html
+├── style.css
+├── login style.css
+├── script.js
+├── login script.js
+├── images/
+│
+├── Dockerfile
+├── docker-compose.yml
+├── .dockerignore
+└── README.md
 ---
+Live Demo
+The Smart Resume Builder application is deployed using GitHub Pages.
 
+You can access the live website here: https://github.com/Rsathvigan/Coffee-shop.git
 ## ✨ Application Features
 
 ### 🏠 Home Section
