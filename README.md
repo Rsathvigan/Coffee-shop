@@ -4,10 +4,6 @@
 
 ---
 
-## 👥 Group Members
-
----
-
 ## 👥 Work Distribution
 
 | Team Member | Responsibilities |
@@ -64,10 +60,10 @@ Coffee-shop/
 ├── .dockerignore
 └── README.md
 ---
-Live Demo
+### Live Demo
 The Smart Resume Builder application is deployed using GitHub Pages.
 
-You can access the live website here: https://github.com/Rsathvigan/Coffee-shop.git
+You can access the live website here: coffee-shop-one-blue.vercel.app
 ## ✨ Application Features
 
 ### 🏠 Home Section
