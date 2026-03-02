@@ -108,9 +108,6 @@ The application is containerized using Docker for portability and consistency.
 - Runs Nginx in foreground mode  
 
 ---
-
-### Run Container
-docker run -p 8080:80 coffee-shop
 ## 📌 Project Description
 
 Then open:
@@ -126,5 +123,5 @@ docker-compose down
 The project has been containerized using **Docker** and deployed using an **Nginx lightweight Alpine image**.
 
 ## 🔹 Build Docker Image
-<img width="1918" height="1017" alt="1" src="https://github.com/user-attachments/assets/bef26f80-3b58-43cc-8a89-5a03f800bb05" />
+<img width="373" height="183" alt="Screenshot 2026-03-01 224143" src="https://github.com/user-attachments/assets/52157ae8-25e3-4e36-b4d7-9a3bc6d9bd37" />
 
