@@ -126,7 +126,5 @@ docker-compose down
 The project has been containerized using **Docker** and deployed using an **Nginx lightweight Alpine image**.
 
 ## 🔹 Build Docker Image
+<img width="1918" height="1017" alt="1" src="https://github.com/user-attachments/assets/bef26f80-3b58-43cc-8a89-5a03f800bb05" />
 
-```bash
-docker build -t coffee-shop .
-<img width="1918" height="1017" alt="1" src="https://github.com/user-attachments/assets/c950b33f-d0f6-4b37-8bff-b11b466886f5" />
