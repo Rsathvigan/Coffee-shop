@@ -5,6 +5,8 @@
 ---
 
 ## 👥 Work Distribution
+ITBNM-2313-0076 R.sathvigan
+ITBNM-2313-0076 P.dhilukshan
 
 | Team Member | Responsibilities |
 |-------------|------------------|
@@ -63,7 +65,7 @@ Coffee-shop/
 ### Live Demo
 The Smart Resume Builder application is deployed using GitHub Pages.
 
-You can access the live website here: coffee-shop-one-blue.vercel.app
+You can access the live website here:[ coffee-shop-one-blue.vercel.app](https://coffee-shop-one-blue.vercel.app/)
 ## ✨ Application Features
 
 ### 🏠 Home Section
