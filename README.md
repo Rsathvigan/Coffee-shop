@@ -1,5 +1,6 @@
 # ☕ Coffee Shop Website  
 ## Dockerized Frontend Web Application  
+<img width="1900" height="912" alt="2" src="https://github.com/user-attachments/assets/559d5044-f2ea-4cbc-9842-3b19b04c908e" />
 
 ---
 
@@ -42,6 +43,7 @@ The project has been containerized using **Docker** and deployed using an **Ngin
 ---
 
 ## 📂 Project Structure
+<img width="605" height="511" alt="3" src="https://github.com/user-attachments/assets/6425b0c2-6cf1-4fce-840f-8b5e56991fd8" />
 
 
 ---
@@ -107,7 +109,24 @@ The application is containerized using Docker for portability and consistency.
 
 ---
 
+### Run Container
+docker run -p 8080:80 coffee-shop
+## 📌 Project Description
+
+Then open:
+http://localhost:8080
+This project is a modern and responsive **Coffee Shop Website** developed using HTML, CSS, and JavaScript.  
+
+### Using Docker Compose
+docker-compose up --build
+The application provides an interactive frontend experience including product showcase, testimonials, gallery, login system, and contact form.  
+
+Stop:
+docker-compose down
+The project has been containerized using **Docker** and deployed using an **Nginx lightweight Alpine image**.
+
 ## 🔹 Build Docker Image
 
 ```bash
 docker build -t coffee-shop .
+<img width="1918" height="1017" alt="1" src="https://github.com/user-attachments/assets/c950b33f-d0f6-4b37-8bff-b11b466886f5" />
