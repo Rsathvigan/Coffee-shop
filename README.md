@@ -47,20 +47,8 @@ The project has been containerized using **Docker** and deployed using an **Ngin
 ---
 
 ## 📂 Project Structure
-Coffee-shop/
-│
-├── index.html
-├── login.html
-├── style.css
-├── login style.css
-├── script.js
-├── login script.js
-├── images/
-│
-├── Dockerfile
-├── docker-compose.yml
-├── .dockerignore
-└── README.md
+<img width="497" height="356" alt="2" src="https://github.com/user-attachments/assets/ed0c0a88-2b1c-4459-8a6a-af088a5c2778" />
+
 ---
 ### Live Demo
 The Smart Resume Builder application is deployed using GitHub Pages.
